@@ -17,6 +17,6 @@ spec:
       containers:
       - name: testapp
         image: quay.io/nadyita/testapp:latest
-        imagePullPolicy: IfNotExists
+        imagePullPolicy: IfNotPresent
         containerPort: 1337
 
