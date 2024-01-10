@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
       - name: testapp
-        image: quay.io/nadyita/testapp:latest-20240110-085310 # {"$imagepolicy": "flux-system:testapp"}
+        image: quay.io/nadyita/testapp:latest-20240110-101737 # {"$imagepolicy": "flux-system:testapp"}
         imagePullPolicy: IfNotPresent
         containerPort: 1337
