@@ -1,4 +1,3 @@
----
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -16,7 +15,6 @@ spec:
     spec:
       containers:
       - name: testapp
-        image: quay.io/nadyita/testapp:latest-20240110-080043 # {"$imagepolicy": "flux-system:testapp"}
+        image: quay.io/nadyita/testapp:latest-20240110-085310 # {"$imagepolicy": "flux-system:testapp"}
         imagePullPolicy: IfNotPresent
         containerPort: 1337
-
